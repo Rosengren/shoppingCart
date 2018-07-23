@@ -16,7 +16,7 @@ const actions = {
       commit('UPDATE_CART_ITEMS', response.data)
     });
   },
-  addCartItems({ commit }, cartItem) {
+  addCartItem({ commit }, cartItem) {
     axios.post('/api/cart', cartItem).then((response) => {
       commit('UPDATE_CART_ITEMS', response.data)
     });
