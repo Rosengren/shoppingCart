@@ -12,4 +12,5 @@ updated and persisted to a local server (data file).
 
 ### Running the server
 
+    npm install
     npm run start

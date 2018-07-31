@@ -1,8 +1,8 @@
 {
   "name": "shopping_cart",
   "version": "1.0.0",
-  "description": "Project Four: Shopping Cart",
-  "author": "Fullstack.io",
+  "description": "Shopping Cart",
+  "author": "Kevin Rosengren",
   "private": true,
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
@@ -12,6 +12,7 @@
   "dependencies": {
     "axios": "^0.17.1",
     "vue": "^2.5.2",
+    "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
