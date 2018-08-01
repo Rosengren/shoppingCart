@@ -42,9 +42,6 @@ export default {
       'cartQuantity'
     ])
   },
-  created() {
-    this.$store.dispatch('getCartItems');
-  },
   methods: {
     ...mapActions(['removeAllCartItems'])
   },
@@ -68,7 +65,7 @@ export default {
 }
 
 .cart--header {
-  border-bottom: 1px solid #E8E8E8;
+  border-bottom: 1px solid #e8e8e8;
   padding-bottom: 15px;
 }
 
