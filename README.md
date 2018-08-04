@@ -2,7 +2,11 @@
 
 A shopping cart built using Vue.js
 
-![alt text](docs/screenshot.png "Shopping Cart Screenshot")
+### Shop Around
+![alt text](docs/clothing_shop.png "Clothing Shop Screenshot")
+
+### View Your Cart
+![alt text](docs/shopping_cart.png "Shopping Cart Screenshot")
 
 ### Description
 
